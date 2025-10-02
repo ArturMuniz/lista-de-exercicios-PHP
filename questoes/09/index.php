@@ -16,8 +16,18 @@
 
     <main>
 
-    <!-- implementação da solução -->
-     
+<?php
+echo "Digite seu nome: ";
+$nome = readline();
+
+echo "Digite sua idade em anos: ";
+$idade = (int) readline();
+
+$dias = $idade * 365;
+
+echo $nome . ", você já viveu aproximadamente " . $dias . " dias.\n";
+?>
+
     </main>
 </body>
 

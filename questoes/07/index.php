@@ -16,8 +16,19 @@
 
     <main>
 
-    <!-- implementação da solução -->
-     
+  <?php
+echo "Digite um número inteiro: ";
+$n = (int) readline();
+
+$fatorial = 1;
+
+for ($i = $n; $i > 1; $i--) {
+    $fatorial *= $i;
+}
+
+echo $n . "! = " . $fatorial . "\n";
+?>
+
     </main>
 </body>
 

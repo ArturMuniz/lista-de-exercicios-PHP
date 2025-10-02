@@ -15,8 +15,14 @@
     </header>
 
     <main>
+        <?php
 
-    <!-- implementação da solução -->
+$valor = 15;
+
+$antecessor = $valor - 1;
+
+echo "O antecessor de $valor é $antecessor";
+?>
      
     </main>
 </body>

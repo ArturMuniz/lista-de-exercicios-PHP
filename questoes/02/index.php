@@ -15,9 +15,18 @@
     </header>
 
     <main>
+<?php
 
-    <!-- implementação da solução -->
-     
+
+$metros = 2.5;
+
+
+$centimetros = $metros * 100;
+
+
+echo "O valor de $metros metro(s) equivale a $centimetros centímetros.";
+
+?>
     </main>
 </body>
 

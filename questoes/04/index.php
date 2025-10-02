@@ -15,8 +15,20 @@
     </header>
 
     <main>
+<?php
+echo "Digite o tamanho da área a ser pintada em metros quadrados: ";
+$area = (float) readline();
 
-    <!-- implementação da solução -->
+$lata = 18;
+$preco = 80;
+$cobertura = 54;
+
+$quantidade = ceil($area / $cobertura);
+$total = $quantidade * $preco;
+
+echo "Você precisará de $quantidade latas de tinta.\n";
+echo "Preço total: R$ $total\n";
+?>
      
     </main>
 </body>

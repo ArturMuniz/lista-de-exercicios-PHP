@@ -16,7 +16,29 @@
 
     <main>
 
-    <!-- implementação da solução -->
+   <?php
+echo "Digite o primeiro número: ";
+$n1 = (float) readline();
+
+echo "Digite o segundo número: ";
+$n2 = (float) readline();
+
+echo "Digite o terceiro número: ";
+$n3 = (float) readline();
+
+$maior = $n1;
+
+if ($n2 > $maior) {
+    $maior = $n2;
+}
+
+if ($n3 > $maior) {
+    $maior = $n3;
+}
+
+echo "O maior número é: $maior\n";
+?>
+
      
     </main>
 </body>

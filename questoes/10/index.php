@@ -15,8 +15,19 @@
     </header>
 
     <main>
+<?php
+echo "Digite o tempo de duração do evento em segundos: ";
+$segundos = (int) readline();
 
-    <!-- implementação da solução -->
+$horas = intdiv($segundos, 3600);
+$segundos = $segundos % 3600;
+
+$minutos = intdiv($segundos, 60);
+$segundos = $segundos % 60;
+
+echo "Duração: " . $horas . "h " . $minutos . "m " . $segundos . "s\n";
+?>
+
      
     </main>
 </body>

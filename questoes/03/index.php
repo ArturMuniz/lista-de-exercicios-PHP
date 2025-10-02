@@ -16,7 +16,22 @@
 
     <main>
 
-    <!-- implementação da solução -->
+<?php
+
+echo "Digite quanto você ganha por hora: ";
+$valorHora = (float) readline();
+
+
+echo "Digite o número de horas trabalhadas no mês: ";
+$horasTrabalhadas = (int) readline();
+
+// Calcula o salário
+$salario = $valorHora * $horasTrabalhadas;
+
+
+echo "Seu salário neste mês é: R$ " . number_format($salario, 2, ",", ".") . "\n";
+?>
+
      
     </main>
 </body>

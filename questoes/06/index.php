@@ -15,8 +15,26 @@
     </header>
 
     <main>
+<?php
+echo "Digite o primeiro número: ";
+$n1 = (float) readline();
 
-    <!-- implementação da solução -->
+echo "Digite o segundo número: ";
+$n2 = (float) readline();
+
+echo "Digite o terceiro número: ";
+$n3 = (float) readline();
+
+$numeros = [$n1, $n2, $n3];
+rsort($numeros);
+
+echo "Números em ordem decrescente: ";
+foreach ($numeros as $num) {
+    echo $num . " ";
+}
+echo "\n";
+?>
+
      
     </main>
 </body>
